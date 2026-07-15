@@ -34,7 +34,7 @@ var app = builder.Build();
 //    app.UseSwaggerUI();
 //}
 
-app.UseSwaggerUI();
+app.UseSwagger();
 app.UseSwaggerUI();
 
 app.UseCors("AllowReact");
